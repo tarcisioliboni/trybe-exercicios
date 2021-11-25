@@ -4,7 +4,7 @@
   h3 {
     text-align: center;
   }
-        
+
   .first {
     background-color: rgb(235, 200, 84);
     font-size: 20px;
@@ -12,8 +12,7 @@
     text-align: center;
     width: 200px;
     display: block;
-    margin: 0 auto;
-        
+    margin: 0 auto;                
   }
   .second {
     background-color: rgb(219, 219, 219);
@@ -21,8 +20,9 @@
     height: 50px;
     text-align: center;
     width: 300px;
-   display: inline-block; 
-   margin-left: 150px;
+    display: inline-block;
+    justify-content: center
+          
   }
   .third {
     background-color: rgb(170, 142, 106);
@@ -31,11 +31,16 @@
     text-align: center;
     width: 300px;
     display: inline-block;
-    
+           
   }
+
+  
   .fist-a {
+      width: 1000px;
       display: inline-block;
-      margin-left: 15%;
+      margin: 0 auto;
+      width: 25%;
+
   }
   .fist-b {
     display: inline-block
