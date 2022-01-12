@@ -1,0 +1,50 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  .container {
+      display: flex;
+  }
+
+@media screen and (max-width: 600px) {
+    body {
+        text-align: justify;
+        font-family: sans-serif;
+        background-color: rgb(175, 192, 192);
+        
+    }
+
+    footer {
+        font-size: small;
+    }
+    
+    .container {
+        flex-direction: column;
+    }
+}  
+
+@media screen and (min-width: 600px) {
+    body {
+        background-color: lightblue;
+
+    }
+   
+    .container {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    body {
+        background-color: lightgreen;
+
+    }
+
+    .container {
+        flex-wrap: nowrap;
+    }
+}
