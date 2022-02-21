@@ -1,0 +1,56 @@
+html {
+  background-image: url(./images/background.jpg);
+}
+
+
+.title {
+  max-width: 400px;
+  max-height: 250px;
+  width: auto;
+  height: auto;
+  padding-top: 25px;
+  padding-bottom: 40px;
+}
+
+.titleDiv {
+  text-align: center;
+}
+
+.Pokemon {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.imagePokemon {
+  width: 200px;
+}
+
+.pokecard {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid black;
+  width: 250px;
+  height: 200px;
+  border-radius: 10px;
+  padding-left: 12px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.pokecard:hover {
+  transform: scale(1.2);
+  background-color: whitesmoke;
+}
+
+.namePokemon {
+  font-weight: 700;
+  font-size: large;
+}
+
+.pokedex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
